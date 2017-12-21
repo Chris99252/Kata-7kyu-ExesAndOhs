@@ -40,6 +40,9 @@ namespace ExesAndOhs
             }
 
             return result;
+
+            ////  Best Practices
+            ////  return input.ToLower().Count(i => i == 'x') == input.ToLower().Count(i => i == 'o');
         }
     }
 }
